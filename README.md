@@ -7,7 +7,7 @@ Grupo: Carlos Schwarz, Guilherme Fraga, Rafael Rodrigues e Wagner Cardoso
 
 
 
-Sistema de Loot Cone Legion
+<strong>Sistema de Loot Cone Legion</strong>
 
 
 Trata-se de um sistema para controlar e equilibrar a distribuição de recompensas em jogos eletrônicos.
