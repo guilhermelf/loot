@@ -1,13 +1,13 @@
-Trabalho Prático – HTML, CSS, PHP e MySQL
+<center><h2>Trabalho Prático – HTML, CSS, PHP e MySQL<h2><center>
 
-Disciplina: Programação para Internet I
-Turma: ADS4N14/2A
-Professora: Sirlei Inês Sulzbach Isaia
-Grupo: Carlos Schwarz, Guilherme Fraga, Rafael Rodrigues e Wagner Cardoso
+<strong>Disciplina:</strong> Programação para Internet I
+<strong>Turma:</strong> ADS4N14/2A
+<strong>Professora:</strong> Sirlei Inês Sulzbach Isaia
+<strong>Grupo:</strong> Carlos Schwarz, Guilherme Fraga, Rafael Rodrigues e Wagner Cardoso
 
 
 
-<strong>Sistema de Loot Cone Legion</strong>
+<center><h1>Sistema de Loot Cone Legion</h1></center>
 
 
 Trata-se de um sistema para controlar e equilibrar a distribuição de recompensas em jogos eletrônicos.
@@ -22,27 +22,27 @@ Todos os usuários terão um login e senha onde poderão visualizar o histórico
 
 Tecnologias envolvidas: HTML, PHP, MySQL, CSS e JS. Serão utilizadas: a biblioteca Jquery,  framework ORM Doctrine (PHP).
 
-Módulos:
+<center><h2>Módulos:</h2></center>
 
-Módulo de Login
+<center><h3>Módulo de Login</h3></center>
 Módulo responsável pela validação de acesso dos usuários.
 
-Módulo de Cadastro
+<center><h3>Módulo de Cadastro</h3></center>
 Módulo onde os usuários poderão se cadastrar e posteriormente atualizar as suas informações (user e character).
 
-Módulo de Administração
+<center><h3>Módulo de Administração</h3></center>
 Módulo de administração onde os Administradores do sistema poderão aceitar novas inscrições e montar os cores.
 
-Módulo de Controle de loots
+<center><h3>Módulo de Controle de loots</h3></center>
 Módulo onde o Raid Leader gerenciará a progressão do core, mantendo atualizado o registro dos players, registrando loots e presenças/faltas.
 
-Módulo de Acompanhamento
+<center><h3>Módulo de Acompanhamento</h3></center>
 Módulo onde os players poderão acompanhar o andamento do core, visualizando a tabela de prioridades de loot.
 
 
 
 Obs.: 
-•	Algumas regras de negócio ainda não foram definidas;
-•	Usuários precisarão estar cadastrados para utilizar os módulos (exceto o de cadastro);
-•	Usaremos exclusão lógica;
+•	Algumas regras de negócio ainda não foram definidas; <br />
+•	Usuários precisarão estar cadastrados para utilizar os módulos (exceto o de cadastro);<br />
+•	Usaremos exclusão lógica;<br />
 •	Mais módulos provavelmente serão adicionados posteriormente ao projeto.
