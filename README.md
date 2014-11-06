@@ -1,9 +1,9 @@
 <center><h2>Trabalho Prático – HTML, CSS, PHP e MySQL<h2><center>
 
-<strong>Disciplina:</strong> Programação para Internet I
-<strong>Turma:</strong> ADS4N14/2A
-<strong>Professora:</strong> Sirlei Inês Sulzbach Isaia
-<strong>Grupo:</strong> Carlos Schwarz, Guilherme Fraga, Rafael Rodrigues e Wagner Cardoso
+<strong>Disciplina:</strong> Programação para Internet I<br />
+<strong>Turma:</strong> ADS4N14/2A<br />
+<strong>Professora:</strong> Sirlei Inês Sulzbach Isaia<br />
+<strong>Grupo:</strong> Carlos Schwarz, Guilherme Fraga, Rafael Rodrigues e Wagner Cardoso<br />
 
 
 
