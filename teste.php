@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+
 <?php
 // adicionaCategoria.php
 
@@ -21,11 +29,15 @@ $raid = new Raid;
  * Defino o nome da categoria a ser criada no banco de dados
  */
 
-$classe = $entityManager->getRepository('Classe')->findOneBy(array('nome' => 'Shaman'));
-
-foreach ($classe->getSpecs() as $spec) {
-	echo $spec->getNome()." <br />";
+$classes = $entityManager->getRepository('Classe')->findAll();
+echo "<h1>Classes  e Specs</h1>";
+foreach ($classes as $classe) {
+	echo "<h3 style='margin-bottom: 0px;'>".$classe->getNome()."</h3>";
+	foreach ($classe->getSpecs() as $spec) {
+		echo "&nbsp;&nbsp;►&nbsp;".$spec->getNome()." (".$spec->getRole()->getNome()." - ".$spec->getAtributo()->getNome().")<br />";
+	}
 }
+
 
 
 
@@ -68,4 +80,6 @@ foreach ($classe->getSpecs() as $spec) {
  * Só a apartir daqui o banco é alterado de alguma forma.
  */
 $entityManager->flush();
-
+?>
+</body>
+</html>
