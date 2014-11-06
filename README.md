@@ -39,7 +39,7 @@ Módulo onde o Raid Leader gerenciará a progressão do core, mantendo atualizad
 <center><h3>Módulo de Acompanhamento</h3></center>
 Módulo onde os players poderão acompanhar o andamento do core, visualizando a tabela de prioridades de loot.<br /><br /><br />
 
-Obs.: 
+Obs.: <br />
 •	Algumas regras de negócio ainda não foram definidas; <br />
 •	Usuários precisarão estar cadastrados para utilizar os módulos (exceto o de cadastro);<br />
 •	Usaremos exclusão lógica;<br />
